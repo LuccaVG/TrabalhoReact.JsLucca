@@ -71,7 +71,7 @@ const App = () => {
       {isModalOpen && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <h2>Descreva sua tarefa</h2>
+            <h2 className='h2'>Descreva sua tarefa</h2>
             <textarea 
               value={newTaskText} 
               onChange={(e) => setNewTaskText(e.target.value)} 
